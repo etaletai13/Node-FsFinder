@@ -1,10 +1,10 @@
 {
 	"name": "fs-finder",
-	"description": "[ABANDONED] File system recursive finder",
-	"version": "1.8.1",
+	"description": "File system recursive finder",
+	"version": "1.9.0",
 	"author": {
-		"name": "David Kudera",
-		"email": "kudera.d@gmail.com"
+		"name": "Casey Parker",
+		"email": "13@etaletai.com"
 	},
 	"keywords": [
 		"file",
@@ -15,24 +15,24 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:Carrooi/Node-FsFinder.git"
+		"url": "git@github.com:etaletai13/Node-FsFinder.git"
 	},
 	"license": "MIT",
 	"engines": {
-		"node": ">=0.9"
+		"yarn": ">=1"
 	},
 	"main": "./lib/Finder.js",
 	"dependencies": {
-		"moment": "^2.5.0",
+		"async": "~0.2.9",
+		"escape-regexp": "*",
+		"moment": "^2.22.0",
 		"operator-compare": "~1.0.1",
-		"escape-regexp": "~0.0.1",
-		"q": "~1.0.0",
-		"async": "~0.2.9"
+		"q": "^1.5.1"
 	},
 	"devDependencies": {
 		"chai": "~1.8.1",
-		"fs-mock": "~1.0.1",
-		"mocha": "~1.17.0"
+		"fs-mock": "^1.2.1",
+		"mocha": "^5.0.5"
 	},
 	"scripts": {
 		"build-and-test": "npm run build && npm run test",
@@ -40,4 +40,3 @@
 		"build": "coffee -co ./test/lib ./test/src"
 	}
 }
-
