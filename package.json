@@ -36,7 +36,8 @@
 		"mocha": "^5.0.5"
 	},
 	"scripts": {
-		"build": "yarn build:cofee && yarn build:taste",
+		"postinstall": "yarn build",
+		"build": "yarn build:coffee && yarn build:taste",
 		"build:taste": "mocha ./test/index.js --reporter spec",
 		"build:coffee": "coffee -co ./test/lib ./test/src"
 	}
