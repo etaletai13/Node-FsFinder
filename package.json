@@ -30,13 +30,14 @@
 	},
 	"devDependencies": {
 		"coffeescript": "~2.2.4",
-		"chai": "~1.8.1",
+		"chai": "~4.1.2",
 		"fs-mock": "^1.2.1",
 		"mocha": "^5.0.5"
 	},
 	"scripts": {
 		"build": "yarn install && yarn build:coffee && yarn build:taste",
 		"build:taste": "mocha ./test/index.js --reporter spec",
-		"build:coffee": "coffee -co ./test/lib ./test/src"
+		"build:coffee": "coffee -co ./test/lib ./test/src",
+		"cleanup": "rm -rf node_modules && rm -f *.log *.error"
 	}
 }
