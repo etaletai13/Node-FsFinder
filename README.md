@@ -1,9 +1,3 @@
-[![NPM version](https://img.shields.io/npm/v/fs-finder.svg?style=flat-square)](http://badge.fury.io/js/fs-finder)
-[![Dependency Status](https://img.shields.io/gemnasium/etaletai13/Node-FsFinder.svg?style=flat-square)](https://gemnasium.com/etaletai13/Node-FsFinder)
-[![Build Status](https://img.shields.io/travis/etaletai13/Node-FsFinder.svg?style=flat-square)](https://travis-ci.org/etaletai13/Node-FsFinder)
-
-[![Donate](https://img.shields.io/badge/donate-PayPal-brightgreen.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2CQPWKW8D3BWS)
-
 # fs-finder
 
 File system finder inspired by finder in [Nette framework](http://doc.nette.org/en/finder).
@@ -196,7 +190,7 @@ var directory = Finder.from(dir).findDirectory();
 ## Tests
 
 ```
-$ npm test
+$ yarn test
 ```
 
 If you want to use fs-finder in your own tests, you can use it with [fs-mock](https://github.com/sakren/node-fs-mock)
