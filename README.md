@@ -1,6 +1,6 @@
 [![NPM version](https://img.shields.io/npm/v/fs-finder.svg?style=flat-square)](http://badge.fury.io/js/fs-finder)
-[![Dependency Status](https://img.shields.io/gemnasium/Carrooi/Node-FsFinder.svg?style=flat-square)](https://gemnasium.com/Carrooi/Node-FsFinder)
-[![Build Status](https://img.shields.io/travis/Carrooi/Node-FsFinder.svg?style=flat-square)](https://travis-ci.org/Carrooi/Node-FsFinder)
+[![Dependency Status](https://img.shields.io/gemnasium/etaletai13/Node-FsFinder.svg?style=flat-square)](https://gemnasium.com/etaletai13/Node-FsFinder)
+[![Build Status](https://img.shields.io/travis/etaletai13/Node-FsFinder.svg?style=flat-square)](https://travis-ci.org/etaletai13/Node-FsFinder)
 
 [![Donate](https://img.shields.io/badge/donate-PayPal-brightgreen.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2CQPWKW8D3BWS)
 
@@ -8,18 +8,10 @@
 
 File system finder inspired by finder in [Nette framework](http://doc.nette.org/en/finder).
 
-## Help
-
-Unfortunately I don't have any more time to maintain this repository :-( 
-
-Don't you want to save me and this project by taking over it?
-
-![sad cat](https://raw.githubusercontent.com/sakren/sakren.github.io/master/images/sad-kitten.jpg)
-
 ## Installing
 
 ```
-$ npm install fs-finder
+$ yarn add fs-finder
 ```
 
 ## Searching
