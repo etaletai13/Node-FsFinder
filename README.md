@@ -1,3 +1,5 @@
+[![bitHound Dependencies](https://www.bithound.io/github/etaletai13/Node-FsFinder/badges/dependencies.svg)](https://www.bithound.io/github/etaletai13/Node-FsFinder/master/dependencies/npm) [![bitHound Dev Dependencies](https://www.bithound.io/github/etaletai13/Node-FsFinder/badges/devDependencies.svg)](https://www.bithound.io/github/etaletai13/Node-FsFinder/master/dependencies/npm)
+---
 # fs-finder
 
 File system finder inspired by finder in [Nette framework](http://doc.nette.org/en/finder).
