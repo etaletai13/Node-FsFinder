@@ -7,7 +7,7 @@ File system finder inspired by finder in [Nette framework](http://doc.nette.org/
 ## Installing
 
 ```
-$ yarn add fs-finder
+$ yarn add etaletai13/fs-finder
 ```
 
 ## Searching
@@ -86,7 +86,7 @@ Finder.from(baseDir).findFiles('*.coffee', function(files) {
 In this example fs finder looks for all files in base directories recursively with '.coffee' in their name.
 Asterisk is just shortcut for regexp '[0-9a-zA-Z/.-_ ]+' so you can also use regexp in mask.
 
-Only thing what you have to do, is enclose your regex into <>.
+The only thing you have to do is enclose your regex into <>.
 
 ```
 var files = Finder.from(baseDir).findFiles('temp/<[0-9]+>.tmp');		// files in temp directories with numbers in name and .tmp extension
@@ -221,6 +221,8 @@ afterEach(function() {
 In fs variable is now mocked fs module, so if you need to use fs module in your tests, just use this one.
 
 ## Changelog
+* 1.8.2
+        + Bump dependency on minimatch to fix regex ddos bug.
 
 * 1.8.1
 	+ Move under Carrooi organization
